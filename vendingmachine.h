@@ -26,6 +26,7 @@ public:
     // Member function. Returns nothing and takes no parameters.
     void printInventory();
 
+    void printMenu();
 
 private:
 
@@ -34,6 +35,7 @@ private:
     // good idea due to reserved names starting with __ and because auto completion of names
     // will work more smoothly.
     std::vector<Soda> sodaTypes_;
+    std::vector<std::string> sodaNames_;
 
 };
 
